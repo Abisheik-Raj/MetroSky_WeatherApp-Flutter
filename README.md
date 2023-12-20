@@ -1,6 +1,6 @@
 # MetroSky: Flutter Weather App for Indian Metropolitan Cities
 
-[App Screenshot](screenshots/Weather App.png)
+[App Screenshot](screenshots/WeatherApp.png)
 
 ## Overview
 

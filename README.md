@@ -22,10 +22,10 @@ MetroSky is a Flutter app that provides users with real-time weather details for
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/metrosky.git`
-2. Navigate to the project directory: `cd metrosky`
-3. Install dependencies: `flutter pub get`
-4. Run the app: `flutter run`
+1. Clone the repository: git clone https://github.com/Abisheik-Raj/MetroSky_WeatherApp-Flutter.git
+2. Navigate to the project directory: cd MetroSky_WeatherApp-Flutter
+3. Install dependencies: flutter pub get
+4. Run the app: flutter run
 
 ## Contributing
 

@@ -10,6 +10,7 @@ MetroSky is a Flutter app that provides users with real-time weather details for
 
 - **Real-time Weather Data**: Get up-to-date weather information for key metropolitan cities in India.
 - **Online Operation**: MetroSky operates exclusively online, providing users with the latest weather updates in real-time.
+- **Hourly Forecast**: Plan your day effectively with MetroSky's hourly forecast feature, providing detailed weather insights throughout the day.
 - **User-Friendly Design**: MetroSky offers an intuitive and visually appealing interface for a delightful online user experience.
 - **City Selection**: Users can easily select their preferred city to view specific weather details.
 

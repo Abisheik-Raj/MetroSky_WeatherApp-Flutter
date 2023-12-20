@@ -42,4 +42,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-weather_app/lib/openweather_api.dart
+openweather_api.dart

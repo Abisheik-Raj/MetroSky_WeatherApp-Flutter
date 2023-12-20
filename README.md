@@ -35,7 +35,7 @@ Contributions are welcome! If you have ideas for improvements, open an issue or 
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+## Acknowledgements
 
 - Weather data provided by [OpenWeatherMap](https://openweathermap.org/).
 - Design credits to [Antoni Aksander](https://dribbble.com/antoniaksander).

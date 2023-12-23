@@ -8,7 +8,6 @@ import "package:weather_app/hourly_forecase_widget.dart";
 
 import "package:http/http.dart" as http;
 import "package:intl/intl.dart";
-import "package:weather_app/openweather_api.dart";
 import "package:weather_app/search_page.dart";
 
 String city = "Chennai";

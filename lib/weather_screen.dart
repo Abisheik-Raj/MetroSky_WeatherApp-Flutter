@@ -45,7 +45,8 @@ class _WeatherScreenState extends State<WeatherScreen> {
 
   Future<Map<String, dynamic>> getCurrentWeather() async {
     try {
-      final result = await http.get(Uri.parse(api));
+      final result = await http.get(Uri.parse(
+          "https://api.openweathermap.org/data/2.5/forecast?q=$city&APPID=4daefceb9188df71af651f1c6a67c754"));
 
       final data = jsonDecode(result.body);
       if (data['cod'] != "200") {
@@ -101,7 +102,9 @@ class _WeatherScreenState extends State<WeatherScreen> {
               color: Colors.white,
             ),
             onPressed: () {
-              setState(() {});
+              setState(() {
+                getCurrentWeather();
+              });
             },
           )
         ],
@@ -126,9 +129,6 @@ class _WeatherScreenState extends State<WeatherScreen> {
               (data["list"][0]["main"]["temp"] - 273.15).toStringAsFixed(0);
           final String weather = data["list"][0]["weather"][0]["main"];
           final IconData icon;
-          // final IconData icon = weather == "Clouds" || weather == "Rain"
-          //     ? Icons.cloud_outlined
-          //     : Icons.wb_sunny_outlined;
 
           if (weather == "Clouds") {
             icon = Icons.cloud_outlined;

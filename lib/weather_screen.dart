@@ -46,7 +46,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
     try {
       String api = "apikey"; // get ur api key from openweather.com
       final result = await http.get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/forecast?q=$city&APPID=%{api}"));
+          "https://api.openweathermap.org/data/2.5/forecast?q=$city&APPID=%$api"));
 
       final data = jsonDecode(result.body);
       if (data['cod'] != "200") {
